@@ -30,7 +30,7 @@ async def start(event):
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/TKBtaggerbot?startgroup=true')],
                       [Button.url('Support🛠', 'https://t.me/XTQ_BAKAVOY')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/TKBresmi')],
-		      [Button.url('Developer👨🏻‍💻', 'https://t.me/XTQ_BAKAVOY')],
+		      [Button.url('Developer👨🏻‍💻', 'https://t.me/TKB_dev')],
                       [Button.url('Developer👨🏻‍💻', 'https://t.me/The_Umid39')],
                     ),
                     link_preview=False
@@ -43,7 +43,7 @@ async def help(event):
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/TKBtaggerbot?startgroup=true')],
                       [Button.url('Support👨‍💻', 'https://t.me/XTQ_BAKAVOY')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/TKBresmi')],
-		      [Button.url('Developer🧑‍🔧', 'https://t.me/XTQ_BAKAVOY')],
+		      [Button.url('Developer🧑‍🔧', 'https://t.me/TKB_dev')],
                      [Button.url('Developer👨🏻‍💻', 'https://t.me/The_Umid39')],
                     ),
                     link_preview=False
@@ -286,5 +286,5 @@ async def mentionall(tagadmin):
 		sleep(0.5)
 
 
-print(">> Bot çalıyor merak etme 🚀 @XTQ_BAKAVOY bilgi alabilirsin <<")
+print(">> Bot çalışıyor merak etme 🚀 @XTQ_BAKAVOY bilgi alabilirsin <<")
 client.run_until_disconnected()
