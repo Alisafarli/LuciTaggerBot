@@ -27,9 +27,9 @@ async def start(event):
   await event.reply("**🇦🇿👨‍💻 TKBtaggerbot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/TKBtaggerbot?startgroup=true')],
-                      [Button.url('Support🛠', 'https://t.me/XTQ_BAKAVOY')],
-                      [Button.url('Resmi Kanal📣', 'https://t.me/TKBresmi')],
+		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/TKBtagger_bot?startgroup=a')],
+                      [Button.url('Support🛠', 'https://t.me/TKB_dev')],
+                      [Button.url('Resmi Kanal📣', 'https://t.me/TKBbotss')],
 		      [Button.url('Developer👨🏻‍💻', 'https://t.me/TKB_dev')],
                       [Button.url('Developer👨🏻‍💻', 'https://t.me/The_Umid39')],
                     ),
@@ -40,9 +40,9 @@ async def help(event):
   helptext = "**🇦🇿👨‍💻 TKBtaggerbot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/TKBtaggerbot?startgroup=true')],
-                      [Button.url('Support👨‍💻', 'https://t.me/XTQ_BAKAVOY')],
-                      [Button.url('Resmi Kanal🔖', 'https://t.me/TKBresmi')],
+                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/TKBtagger_bot?startgroup=a')],
+                      [Button.url('Support👨‍💻', 'https://t.me/TKB_dev')],
+                      [Button.url('Resmi Kanal🔖', 'https://t.me/TKBbotss')],
 		      [Button.url('Developer🧑‍🔧', 'https://t.me/TKB_dev')],
                      [Button.url('Developer👨🏻‍💻', 'https://t.me/The_Umid39')],
                     ),
