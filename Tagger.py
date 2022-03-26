@@ -24,25 +24,25 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**🇦🇿👨‍💻 SU57taggerbot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
+  await event.reply("**🇦🇿👨‍💻 imperatortaggerbot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/SU57taggerbot?startgroup=a')],
+		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/imperatortaggerbot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/SU57support')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/SU57bots')],
-		      [Button.url('SAHİBİM👨🏻‍💻', 'https://t.me/XTQ_BAKAVOY')],
+		      [Button.url('SAHİBİM👨🏻‍💻', 'https://t.me/ownerimperator2908')],
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**🇦🇿👨‍💻 SU57taggerbot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
+  helptext = "**🇦🇿👨‍💻 imperatortaggerbot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/SU57taggerbot?startgroup=a')],
-                      [Button.url('Support👨‍💻', 'https://t.me/XTQ_BAKAVOY')],
+                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/imperatortaggerbot?startgroup=a')],
+                      [Button.url('Support👨‍💻', 'https://t.me/SU57support')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/SU57bots')],
-		      [Button.url('SAHİBİM🧑‍🔧', 'https://t.me/XTQ_BAKAVOY')],
+		      [Button.url('SAHİBİM🧑‍🔧', 'https://t.me/ownerimperator2908')],
                     ),
                     link_preview=False
                    )
@@ -52,7 +52,7 @@ async def help(event):
   helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @SU57taggerbot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Botu Gruba Ekle➕', 'https://t.me/SU57taggerbot?startgroup=a')],
+                      [Button.url('Botu Gruba Ekle➕', 'https://t.me/imperatortaggerbot?startgroup=a')],
                     ),
                     link_preview=False
                    )
@@ -284,5 +284,5 @@ async def mentionall(tagadmin):
 		sleep(0.5)
 
 
-print(">> Bot çalışıyor merak etme 🚀 @XTQ_BAKAVOY bilgi alabilirsin <<")
+print(">> Bot çalışıyor merak etme 🚀 @ownerimperator2908 bilgi alabilirsin <<")
 client.run_until_disconnected()
