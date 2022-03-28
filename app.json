@@ -1,17 +1,17 @@
 {
-  "name": "Crstal Tagger Bot",
+  "name": "Krakadil Tagger Bot",
   "logo":"https://telegra.ph/file/133b9125da464d1db6fca.jpg",
-  "description": "Crstal Tagger ÜCRETSİZ ŞEKILDE GRUBUNUZDA ÜYELERI ETIKETLEYE BILIR.",
+  "description": "Krakadil Tagger ÜCRETSİZ ŞEKILDE GRUBUNUZDA ÜYELERI ETIKETLEYE BILIR.",
   "env": {
-    "TOKEN": {
+    "TOKEN": {5277310169:AAG0hhQkm9VvjtsAcrE8Hw4jeaE7Dvj0ZSM
       "description": "@botfather Vasitesi ile Ala Bilersen(Gerekli)",
       "value": ""
     },
-    "APP_ID": {
+    "APP_ID": {9958515
       "description": " my.telegram.org vasitesi ile ala bilersen (Gerekli)",
       "value": ""
     },
-    "API_HASH": {
+    "API_HASH": {957770c63d14ffb12b52b58b8aac7917
       "description": "my.telegram.org Vasitesi ile ala bilersen (Gerekli)",
       "value": ""
     }
