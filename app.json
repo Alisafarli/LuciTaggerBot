@@ -1,7 +1,7 @@
 {
-  "name": "Crstal Tagger Bot",
+  "name": "Krakadil Tagger Bot",
   "logo":"https://telegra.ph/file/133b9125da464d1db6fca.jpg",
-  "description": "Crstal Tagger ÜCRETSİZ ŞEKILDE GRUBUNUZDA ÜYELERI ETIKETLEYE BILIR.",
+  "description": "Krakadil Tagger ÜCRETSİZ ŞEKILDE GRUBUNUZDA ÜYELERI ETIKETLEYE BILIR.",
   "env": {
     "TOKEN": {
       "description": "@botfather Vasitesi ile Ala Bilersen(Gerekli)",
