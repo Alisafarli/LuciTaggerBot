@@ -28,7 +28,7 @@ async def start(event):
                     buttons=(
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/KrakadilTaggerbot?startgroup=a')],
-                      [Button.url('Support🛠', 'https://t.me/Krakadilsupport')],
+                      [Button.url('Support🛠', 'https://t.me/botsssupport')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/KMGResmi')],
 		      [Button.url('SAHİBİM👨🏻‍💻', 'https://t.me/AliSafarofh')],
                     ),
@@ -40,7 +40,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/KrakadilTaggerbot?startgroup=a')],
-                      [Button.url('Support👨‍💻', 'https://t.me/Krakadilsupport')],
+                      [Button.url('Support👨‍💻', 'https://t.me/botsssupport')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/KMGResmi')],
 		      [Button.url('SAHİBİM🧑‍🔧', 'https://t.me/AliSafarofh')],
                     ),
